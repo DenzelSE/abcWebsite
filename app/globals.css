@@ -43,7 +43,7 @@ body {
   .animate-carousel {
     display: flex;
     width: max-content;
-    animation: carousel 20s linear infinite;
+    animation: carousel 30s linear infinite;
     transform-style: preserve-3d;
   }
 
@@ -75,7 +75,7 @@ body {
   .animate-carousel-fast {
     display: flex;
     width: max-content;
-    animation: carousel 27s linear infinite; /* 10% faster than 30s */
+    animation: carousel 25s linear infinite; /* 10% faster than 30s */
     transform-style: preserve-3d;
   }
 
