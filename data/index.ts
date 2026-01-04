@@ -12,6 +12,17 @@
   
   export const events: Event[] = [
     {
+      id: "Africa Stablecoin Summit",
+      title: "African Stablecoin Summit",
+      description: "This summit features central banks, regulators, banks, fintech leaders, stablecoin issuers, and corporate treasuries to explore how stablecoins can address Africa’s pressing challenges around crossborder payments, merchant acceptance, remittances, and treasury management.",
+      image: "/Events/Asummit.jpeg",
+      date: "Nov 12-13, 2025",
+      location: "The Empire Conference and Events venue, Johannesburg",
+      type: "past",
+      registrationUrl: "",
+      detailsUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7396815118640005120",
+    },
+    {
       id: "Party Event",
       title: "5th Global Pizza Party 2025",
       description: "In celebration of Bitcoin Pizza Day, join us and thousands around the world as PizzaDAO throws its 5th Global Pizza Party – and yes, it's as legendary as it sounds!",
@@ -168,7 +179,7 @@ export const teamMembers = [
   },
   {
     name: "Denzel Selokela",
-    role: "Community Manager",
+    role: "COO & Community Manager",
     bio: "Community builder, technical coordinator and developer with a passion for blockchain adoption.increase the club’s visibility and reach across the continent. His dedication to the blockchain movement aligns with the club’s mission to make Africa a global leader in blockchain innovation.",
     image: "/CoreTeam/DenzelS.jpg",
     linkedin: "https://linkedin.com/in/davidmwangi",
@@ -188,7 +199,7 @@ export const teamMembers = [
   },
   {
     name: "Katlego Phele",
-    role: "Technical Coordinator",
+    role: "CTO",
     bio: "With a background in software development and blockchain technology, he coordinates technical workshops, hackathons, and events that empower members to build, learn, and engage deeply with Web3. ",
     image: "/CoreTeam/Katlego.jpg",
     linkedin: "https://linkedin.com/in/kwameasante",
@@ -251,18 +262,7 @@ export const ResearchTeam = [
     company: "",
     image: "/ResearchNDevs/PreciousM.jpg",
   },
-  {
-    name: "Keutlwile Mpolokeng",
-    role: "NFT Artist & Developer",
-    company: "",
-    image: "/ResearchNDevs/KeutlwileM.jpg",
-  },
-  {
-    name: "Tshepo Shiburi",
-    role: "Developer",
-    company: "",
-    image: "/ResearchNDevs/TshepoS.jpg",
-  }
+
 ]
 
 export const milestones = [
