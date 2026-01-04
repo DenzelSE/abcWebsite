@@ -82,7 +82,7 @@ export default function Home() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="px-2 py-8 md:py-12">
+        <section id="contact" className="px-2 py-8 md:py-0">
           <Collaborate />
         </section>
         
