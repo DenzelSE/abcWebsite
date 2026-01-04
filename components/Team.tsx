@@ -47,7 +47,7 @@ export default function Carousel() {
         }
         
         .animate-carousel-mobile {
-          animation: scroll-mobile 30s linear infinite;
+          animation: scroll-mobile 20s linear infinite;
         }
         
         .animate-carousel {

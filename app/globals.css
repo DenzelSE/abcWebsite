@@ -43,7 +43,7 @@ body {
   .animate-carousel {
     display: flex;
     width: max-content;
-    animation: carousel 30s linear infinite;
+    animation: carousel 20s linear infinite;
     transform-style: preserve-3d;
   }
 
