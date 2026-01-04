@@ -271,7 +271,7 @@ const Collaborate: React.FC = () => {
   })}
 </div>
               {/* Form */}
-              <ParticleBackground className="mx-auto mt-4" />
+              <ParticleBackground className="mx-0 mt-18" />
               <div className={`mt-4 sm:mt-6 w-full max-w-md transition-all duration-700 ease-in-out overflow-hidden ${
                 showForm ? "opacity-100 scale-100 max-h-[2000px]" : "opacity-0 scale-95 max-h-0"
               }`}>
