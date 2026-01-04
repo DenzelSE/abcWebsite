@@ -21,7 +21,7 @@ export default function Carousel() {
 
       <div className="relative perspective-[400px] md:perspective-[800px] z-0 py-8 md:py-0">
         <div className="skewed-carousel animate-carousel-mobile md:animate-carousel">
-          {[...teamImages].map((img, i) => (
+          {[...teamImages, ...teamImages].map((img, i) => (
             <div
               key={i}
               className="relative flex-shrink-0 mx-2 md:mx-3 w-[280px] h-[220px] md:w-[380px] md:h-[300px]"
@@ -47,7 +47,7 @@ export default function Carousel() {
         }
         
         .animate-carousel-mobile {
-          animation: scroll-mobile 20s linear infinite;
+          animation: scroll-mobile 30s linear infinite;
         }
         
         .animate-carousel {
